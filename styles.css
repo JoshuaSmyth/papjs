@@ -1,0 +1,40 @@
+div.choice
+{
+    cursor: pointer;
+    margin: 5px;
+}
+
+div.chosen
+{
+    margin: 5px;
+}
+
+#wrapper
+{
+    text-align: center;
+    margin: 5px;
+}
+
+#storybook
+{
+    display: inline-block;
+    text-align: left;
+    
+    max-width:800px;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+#storybook
+    {
+        width:300px;
+    }
+}
